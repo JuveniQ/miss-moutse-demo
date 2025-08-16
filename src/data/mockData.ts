@@ -1,11 +1,11 @@
 export const mockContestants = [
   {
     id: 1,
-    name: "Thandi Mthembu",
+    name: "Lady Patience",
     age: 22,
     location: "Cape Town, Western Cape",
     image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=600",
-    votes: 1250,
+    votes: 1999,
     description: "A passionate advocate for environmental conservation and sustainable living. Thandi holds a degree in Environmental Science from UCT and actively participates in community cleanup initiatives across the Western Cape."
   },
   {
@@ -37,11 +37,11 @@ export const mockContestants = [
   },
   {
     id: 5,
-    name: "Kgomotso Mokoena",
+    name: "Ochibi~Chan",
     age: 20,
-    location: "Bloemfontein, Free State",
+    location: "Emalahleni, Mpumalanga",
     image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=600",
-    votes: 1100,
+    votes: 2000,
     description: "A pre-med student at UFS and volunteer at local clinics who dedicates her time to community health services. Kgomotso dreams of becoming a pediatric surgeon to help children in rural South Africa."
   },
   {

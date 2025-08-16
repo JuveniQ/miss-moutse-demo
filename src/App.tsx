@@ -30,7 +30,7 @@ function App() {
   // Initialize user with some credits when they log in
   const handleLogin = (userData: any) => {
     setUser(userData);
-    setUserCredits(500); // Give new users 500 credits to start
+    setUserCredits(0); // Give new users 500 credits to start
   };
 
   const handleLogout = () => {
@@ -147,10 +147,11 @@ function App() {
           <div className="text-center">
             <div className="flex items-center justify-center space-x-2 mb-4">
               <Crown className="h-8 w-8 text-yellow-500" />
-              <h3 className="text-2xl font-bold">Miss Moutse</h3>
+              <h3 className="text-2xl font-bold">Miss Moutse Pageant</h3>
             </div>
             <p className="text-gray-400 mb-6">
               Empowering Moutse women, celebrating excellence, and crowning champions.
+              Perfection Comes From Within!
             </p>
             <div className="border-t border-gray-700 pt-6">
               <p className="text-sm text-gray-500">
